@@ -1,0 +1,18 @@
+h1 {
+    color: lightgreen;
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+#truthLie {
+    border: 2px solid black;
+    border-radius: 1em;
+    background-color: gray;
+}
