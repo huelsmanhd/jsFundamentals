@@ -49,3 +49,30 @@ function  lowerCase(small) {
 }
 
 console.log( lowerCase( upperCase(score)))
+
+/*
+Write a function that checks to see if all characters in a string are unique
+
+What do I need?
+Function with Parameters
+For Loop
+Conditional
+split()
+
+*/
+let x = "string";
+let y = "racecar";
+
+let check = (checking) => {
+    let broken = checking.split("");
+    for (item in broken) {
+        for (item2 in broken) {
+            console.log(item, item2);
+            if (broken[item] === broken[item2] && item !== item2) {
+            console.log("Not unique");
+            }
+        }
+    }
+}
+
+check(y);
